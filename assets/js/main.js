@@ -1,7 +1,7 @@
 // main.js
 
 console.log("Hello, World!");
-let targetElement = document.querySelector("h2");
+let targetElement = document.querySelector(".text");
 console.log(targetElement.outerHTML);
 targetElement.addEventListener("mouseover", function() {
     console.log(this.innerText); 

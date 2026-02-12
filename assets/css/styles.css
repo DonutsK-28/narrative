@@ -1,16 +1,36 @@
 /* styles.css */
-.backgroundImage {
+/*.backgroundImage {
 	background-image: url(../img/concealer.png);
 	width: 435px;
 	height: 700px;
-	margin: 20px auto;
+	margin: 96px auto;
+	margin-right: 100px;
 }
 .backgroundImage:hover {
 	background-image: url(../img/bunny.png); 
-	width: 688px;
-	height: 545px;
-	size-adjust: 40px;
+	width: 252px;
+	height: 200px;
+}*/
+.img_conceal {
+	/*background-image: url(../img/concealer.png);*/
+	float: right;
+	width: 35%;
+	bottom: 50%;
+	background-color: brown;
 }
+.pos_center {
+	position: absolute;
+	width: 70%;
+	top: 10%;
+	left: 13%;
+	background-color: black;
+	padding: 12px;
+}
+/*.img_conceal:hover {
+	background-image: url(../img/bunny.png);
+	float: right;
+	width: 20%; 
+}*/
 body {
 	background-color: rgb(122, 10, 10);
 	font-family: Arial, Helvetica, sans-serif;
@@ -19,7 +39,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	font-size: 65px;
 	text-align: center;
 	margin-top: 20px;
@@ -28,38 +48,46 @@ h1 {
 	font-optical-sizing: auto;
 	font-weight: 600;
 	font-style: italic;
+	background-color: aliceblue;
 }
 .text {
-	width: 50%;
-	margin: 96px auto;
-	text-align: center;
-	margin-block: 20px;
+	margin: 0px auto;
+	text-align: left;
+	margin-block: 0px;
 	font-family: "Cinzel", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 600;
-	font-style: italic;
+	font-style: bold;
+	margin-top: 140px;
+	margin-bottom: -90px;
+	margin-left: 20px;
+	font-size: 35px;
+	color: rgb(255, 4, 0);
 }
 .text * {
 	display: inline-block;
 	width: 48%;
 	margin: 0;
 	padding: 0;
-	vertical-align: middle;
+	text-align: left auto;
 }
 div {
 	width: 50%;
-	margin: 96px auto;
-	text-align: center;
-	color: aliceblue;
-	font-size: 40px;
-	margin-block: 20px;
+	margin: 9px auto;
+	margin-left: 20px;
+	margin-block: -90px;
+	margin-top: 140px;
+	text-align: left;
+	color: rgb(0, 0, 0);
+	font-size: 35px;
 	font-family: "Cinzel", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 600;
 	font-style: italic;
+	background-color: rgb(255, 255, 255);
 }
 p {
-	color: rgb(207, 207, 207);
+	color: rgb(255, 255, 255);
 	font-size: 40px;
 	text-align: center;
 	margin-block: 0px;
@@ -68,21 +96,28 @@ p {
 	font-optical-sizing: auto;
 	font-weight: 600;
 	font-style: italic;
+	background-color: rgb(0, 0, 0);
 }
 h2 {
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	font-size: 40px;
+	text-align: left auto; 
+	font-family: "Cinzel", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 900;
+	font-style: italic;
+	margin-left: 0px;
+	margin-block: -100px;
+}
+/*h3 {
+	color: aliceblue;
 	font-size: 40px;
 	text-align: center; 
 	font-family: "Cinzel", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 600;
-	font-style: italic;
-}
-h3 {
-	color: aliceblue;
-	font-size: 40px;
-	text-align: center; 
-}
+	font-style: italic; 
+}*/
 h3 a:link, 
 h3 a:visited {
 	color: blueviolet;
